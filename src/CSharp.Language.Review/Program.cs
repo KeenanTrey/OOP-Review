@@ -25,7 +25,7 @@ namespace CSharp.Language.Review
                       
 
 
-            Console.ReadLine();
+            
         }//eom
 
         private List<Student> _students = new List<Student>();
