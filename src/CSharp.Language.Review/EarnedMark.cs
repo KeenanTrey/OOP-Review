@@ -26,6 +26,7 @@ namespace CSharp.Language.Review
         public double WeightedPercent
         { get { return Percent * Weight / 100; } }
 
+        //Calls another constructer BEFORE it runs its own body of instructions. Hooking up constructors in this fashion is known as "Daisy chaining" your constructor calls
         public EarnedMark(WeightedMark markableItem, int possible, double earned) : this(markableItem.Name, markableItem.Weight, possible, earned)
         {
 
